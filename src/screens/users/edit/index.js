@@ -1,13 +1,12 @@
 import React, { Fragment } from 'react';
 import { Column, Section, Title, Container, Card, Button } from "rbx";
 import "../../../styles/users.scss";
-import UsersEditForm from "../../../components/users/users_edit_form";
-import UsersEditPasswordForm from "../../../components/users/users_edit_password_form";
-import UsersDelete from "../../../components/users/users_delete";
 import HeaderLogged from "../../../components/header_logged";
+import UsersEditForm from "../../../components/users/users_edit_form";
+import UsersEditPasswordForm from "../../../components/users/user_edit_password_form";
+import UsersDelete from "../../../components/users/user_delete";
 
-
-const UserEdit = () => (
+const UserEditScreen = () => (
   <Fragment>
     <HeaderLogged />
     <Section size="medium" className="users">
@@ -35,7 +34,6 @@ const UserEdit = () => (
                 <UsersEditPasswordForm/>
               </Card.Content>
             </Card>
-
           </Column>
         </Column.Group>
         <Column.Group centered>
@@ -47,5 +45,5 @@ const UserEdit = () => (
     </Section>
   </Fragment>
 );
-​
-export default UserEdit;​
+
+export default UserEditScreen;

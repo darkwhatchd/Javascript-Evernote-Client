@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button } from "rbx";
-import UserService from '../../../services/user';
+import UserService from '../../../services/users';
 import { Redirect } from "react-router-dom";
 
 function UsersDelete() {

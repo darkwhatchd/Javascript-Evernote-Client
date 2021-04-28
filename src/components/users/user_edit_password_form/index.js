@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from 'react';
 import { Button, Field, Control, Input, Column, Title, Help, Label } from "rbx";
-import UserService from '../../../services/user';
+import UserService from '../../../services/users';
 
 function UsersEditFormPassword() {
   const [password, setPassword] = useState("");
